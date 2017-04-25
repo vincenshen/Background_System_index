@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pg-head{
+    background-color: #3989c7;
+    height: 58px;
+    line-height: 58px;
+    min-width: 1080px;
+}
+
+.pg-head .logo{
+    width: 200px;
+    font-size: 25px;
+    font-family: "Microsoft YaHei UI";
+    color: white;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.hide{
+    display: none;
+}
+
+.pg-head .avatar{
+    height: 48px;
+    width: 48px;
+    padding: 5px 40px 5px 20px;
+    margin-right:20px;
+}
+
+.pg-head .avatar img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+}
+
+.pg-head .user-profile .item{
+    padding: 0 15px;
+    color: white;
+    display: inline-block;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pg-head .user-profile .item:hover{
+    background-color: lightskyblue;
+}
+
+.pg-head .avatar .menu{
+    display: none;
+    width: 150px;
+    height: 140px;
+    top: -20px;
+    right:100px;
+    background-color: #146d9e;
+    position: relative;
+    z-index: 100;
+}
+
+.pg-head .avatar .menu a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    line-height: 40px;
+}
+.pg-head .avatar .menu a:hover{
+    background-color: #3989c7;
+}
+
+
+.pg-head .avatar:hover .menu{
+    display: block;
+}
+
+.pg-head .welcome{
+    padding-left: 50px;
+    color: white;
+}
+
+.pg-head .search input{
+    height: 22px;
+    line-height: 22px;
+}
+
+#searchSubmit{
+    margin-right: 10px;
+}
+
+.pg-body{
+    min-width: 1080px;
+}
+
+.pg-body .body-menu{
+    position: absolute;
+    width: 200px;
+    top: 58px;
+    left: 0;
+    bottom: 0;
+    background-color: #225277;
+    text-align: center;
+}
+
+.pg-body .body-content{
+    position: absolute;
+    top: 58px;
+    left: 200px;
+    right: 0;
+    bottom: 0;
+    background-color: #eeeeee;
+    min-width: 880px;
+    overflow: scroll;
+    padding: 10px 10px 10px 50px;
+}
+
+.pg-body .body-menu .item .title{
+    line-height: 40px;
+    background-color: #0b659e;
+}
+
+.pg-body .body-menu .item .title:hover{
+    background-color: #157cb4;
+}
+
+.pg-body .body-menu .item .title{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.pg-body .body-menu .item .subtitle a{
+    display: block;
+    text-decoration: none;
+    line-height: 40px;
+    color: white;
+    font-size: 14px;
+}
+
+.pg-body .body-menu .item .subtitle a:hover{
+    background-color: #168fce;
+}
+
+.border001{
+    border-top: 1px solid cornflowerblue;
+    margin-left: 30px;
+    width: 140px;
+}
+
+#MiddleLayer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    z-index: 88;
+    opacity: 0.5;
+}
+
+#TopLayer{
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    left: 50%;
+    margin-left: -200px;
+    top: 50%;
+    margin-top: -150px;
+    z-index: 89;
+}
+
+#hideLayer{
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.motai{
+    height: 250px;
+    width: 400px;
+    text-align: center;
+    line-height: 250px;
+}
+
+#showLayer{
+    width:100px;
+    height: 30px;
+}
+
+#inp{
+    width: 200px;
+    height: 22px;
+}
+
+
+.body-content .table {
+    font-size:12px;
+    border-collapse: collapse;
+}
+
+.body-content .table th {
+    background-color:#c3dde0;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+
+.body-content .table tr {
+    background-color:#d4e3e5;
+}
+
+.body-content .table td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+
+.button{
+    width:68px;
+    height: 28px;
+}
+
+#container{
+    margin-left: 16px;
+}

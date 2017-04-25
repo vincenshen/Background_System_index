@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Openstack Managment System</title>
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.css" />
+    <link rel="stylesheet" href="css/css.css" />
+</head>
+
+<body>
+    <div class="pg-head">
+        <div class="logo left">运维管理平台</div>
+        <div id="datetime" class="left"></div>
+        <div id="welcome" class="welcome left">欢迎李磊今天来上课&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="avatar right">
+            <a><img src="img/avatar.jpg" /></a>
+            <div class="menu">
+                <a href="#" class="item">个人资料</a>
+                <a href="#" class="item">修改密码</a>
+                <a href="#" class="item">退出登录</a>
+            </div>
+        </div>
+        <div class="user-profile right">
+            <a href="#" class="item"><i class="fa fa-qq" aria-hidden="true"></i></a>
+            <a href="#" class="item"><i class="fa fa-battery-three-quarters" aria-hidden="true"></i></a>
+            <a href="#" class="item">注册</a>
+            <a href="#" class="item">登录</a>
+        </div>
+        <div class="search right">
+            <form accept-charset="gb2312" id="search" action="https://www.sogou.com/web" method="post">
+                <input id="searchKey" type="text" name="query" value="请输入关键字">
+                <a id="searchSubmit"><i style="cursor: pointer;" class="fa fa-search fa-2x" aria-hidden="true">&nbsp;</i></a>
+            </form>
+        </div>
+    </div>
+
+    <div class="pg-body">
+        <div class="body-menu">
+            <div class="item">
+                <div class="title">
+                    菜单001
+                    <div class="border001"></div>
+                </div>
+                <div class="subtitle">
+                    <a href="#">子菜单01</a>
+                    <a href="#">子菜单02</a>
+                    <a href="#">子菜单03</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="title">
+                    菜单002
+                    <div class="border001"></div>
+                </div>
+                <div class="subtitle hide">
+                    <a href="#">子菜单01</a>
+                    <a href="#">子菜单02</a>
+                    <a href="#">子菜单03</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="title">
+                    菜单003
+                    <div class="border001"></div>
+                </div>
+                <div class="subtitle hide">
+                    <a href="#">子菜单01</a>
+                    <a href="#">子菜单02</a>
+                    <a href="#">子菜单03</a>
+                </div>
+            </div>
+            <br><br><br><br>
+            <div>
+                <input id="showLayer" type="button" value="模态对话框">
+            </div>
+        </div>
+
+        <div class="body-content">
+            <div>
+                <input class="button" id="checkall" type="button" value="全选" />
+                <input class="button" id="reverseall" type="button" value="反选" />
+                <input class="button" id="removeall" type="button" value="取消" />
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>选择</th>
+                            <th>主机名</th>
+                            <th>IP地址</th>
+                            <th>端口</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tb">
+                        <tr>
+                            <td><input class="c1" type="checkbox"></td>
+                            <td>c1.com</td>
+                            <td>192.168.0.1</td>
+                            <td>80</td>
+                        </tr>
+                        <tr>
+                            <td><input class="c1" type="checkbox"></td>
+                            <td>c2.com</td>
+                            <td>192.168.0.2</td>
+                            <td>80</td>
+                        </tr>
+                        <tr>
+                            <td><input class="c1" type="checkbox"></td>
+                            <td>c3.com</td>
+                            <td>192.168.0.3</td>
+                            <td>80</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <br>
+                <input type="text" id="inp">
+                <input id="addElement" type="button" value="添加元素">
+                <input id="delElement" type="button" value="删除元素">
+                <b id="deleted"></b>
+                <ul id="container">
+                    <li>第一个元素</li>
+                </ul>
+            </div>
+        </div>
+        <div id="MiddleLayer" class="hide"></div>
+        <div id="TopLayer" class="hide">
+            <input class="button" id="hideLayer" type="button" value="关闭">
+            <div class="motai">模态对话框</div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/js.js"></script>
+</body>
+</html>
